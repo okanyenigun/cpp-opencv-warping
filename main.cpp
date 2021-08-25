@@ -81,7 +81,7 @@ Mat getWarp(Mat img, vector<Point> points, float w, float h)
 }
 
 void main() {
-    string path = "paper.jpg";
+    string path = PATH; //Path to document
     imgOriginal = imread(path);
     //resize(imgOriginal,imgOriginal,Size(),0.5,0.5);
 
